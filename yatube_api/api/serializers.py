@@ -1,6 +1,5 @@
 from rest_framework import serializers
 from rest_framework.validators import UniqueTogetherValidator
-from drf_extra_fields.fields import Base64ImageField
 from posts.models import Comment, Post, Group, Follow
 from django.contrib.auth import get_user_model
 
@@ -17,7 +16,6 @@ class PostSerializer(serializers.ModelSerializer):
         queryset=Group.objects.all(),
         required=False
     )
-    image = Base64ImageField(required=False, allow_null=True)
 
     class Meta:
         fields = '__all__'
