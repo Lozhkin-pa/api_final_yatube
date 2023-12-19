@@ -17,7 +17,7 @@ API доступен только аутентифицированным пол�
 * [pytest](https://docs.pytest.org/en/7.1.x/contents.html) | 6.2.4
 * [pytest-pythonpath](https://pypi.org/project/pytest-pythonpath/) | 0.7.3
 * [pytest-django](https://pypi.org/project/pytest-django/) | 4.4.0
-* [djangorestframework](https://www.django-rest-framework.org/) | 3.12.4`
+* [djangorestframework](https://www.django-rest-framework.org/) | 3.12.4
 * [djangorestframework-simplejwt](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/) | 4.7.2
 * [Pillow](https://pillow.readthedocs.io/en/stable/) | 9.3.0
 * [PyJWT](https://pyjwt.readthedocs.io/en/stable/) | 2.1.0
@@ -76,9 +76,7 @@ python3 manage.py migrate
 python3 manage.py runserver
 ```
 
-
 ## Примеры запросов
-
 Для взаимодействия с ресурсами описаны и настроены эндпоинты:
 
 * `api/v1/jwt/create/` (POST): передаём логин и пароль, получаем токен.
@@ -106,11 +104,5 @@ python3 manage.py runserver
 ![](img/get-follow.jpg)
 ![](img/post-follow.jpg)
 
-
 ## Автор
-
-Павел Ложкин
-
-[lozhkin.pa@gmail.com](mailto:lozhkin.pa@gmail.com)
-
-[github.com/Lozhkin-pa](https://github.com/Lozhkin-pa)
+[Павел Ложкин](https://github.com/Lozhkin-pa)
